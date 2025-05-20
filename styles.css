@@ -1,0 +1,107 @@
+/* Vispārējie stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+@media (max-width: 768px) {
+    .infographic-card {
+        position: relative; /* Prevents overlapping */
+        width: 100%; /* Makes it scale properly */
+        max-width: 400px; /* Keeps it manageable */
+        margin: 0 auto; /* Centers it */
+    }
+
+    .infographic-card img {
+        width: 100%; /* Ensures full-width scaling */
+        height: auto; /* Maintains aspect ratio */
+    }
+}
+
+/* Virsraksts */
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.resources {
+    text-align: center; /* Centers text inside the section */
+    width: 100%; /* Ensures it spans properly */
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.infographic-card {
+    width: 100%; /* Ensures it spans properly */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center; /* Centers text and image */
+    margin-bottom: 20px; /* Adds space before next section */
+}
+
+.infographic-card img {
+    max-width: 100%; /* Makes it scale nicely */
+    height: auto; /* Maintains aspect ratio */
+    margin-top: 10px;
+}
+
+/* Resursi */
+.resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resources li {
+    margin-bottom: 10px;
+}
+
+.resources a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.resources img {
+    max-width: 100%; /* Ensures the image fits well */
+    height: auto; /* Maintains aspect ratio */
+    margin: 10px 0; /* Adds spacing around the image */
+}
+/* Satura sadaļas */
+.content {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+/* Attēli */
+.content img {
+    width: auto; 
+    max-height: 200px; 
+    display: block;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* Teksts */
+.text {
+    width: 60%;
+}
+
+/* Kājene */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
